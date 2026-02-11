@@ -69,7 +69,7 @@ print(thisdict)
 print()
 
 #Loop Dictionaries
-#saat melakukan perulangan, nilai yang dikembalikan adalah kunci-kunci dictionary tersebut, tetapi ada juga metode untuk mengembalikan nilai-nilainya
+#saat melakukan perulangan, nilai yang dikembalikan adalah kunci-kunci dictionary tersebut, ada juga metode untuk mengembalikan nilai
 thisdict =	{
   "brand": "Ford",
   "model": "Mustang",
