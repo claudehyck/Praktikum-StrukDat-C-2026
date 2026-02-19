@@ -19,9 +19,7 @@ class Person:
 
 p1 = Person("Emil")
 p2 = Person("Tobias")
-
-p1.city = "Pekanbaru"
-
+p1.city = "Pekanbaru" #menambahkan properti baru
 print(p1.name)
 print(p2.name)
 print(p1.species)
