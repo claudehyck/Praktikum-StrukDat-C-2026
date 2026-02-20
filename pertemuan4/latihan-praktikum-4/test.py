@@ -1,5 +1,5 @@
 # test.py - jalankan setelah install colorama
-from colorama import Fore, Back, Style, init
+from colorama import Fore, Back, Style, init # type: ignore
 init()
 print(Fore.RED + 'Teks Merah')
 print(Fore.GREEN + 'Teks Hijau')
