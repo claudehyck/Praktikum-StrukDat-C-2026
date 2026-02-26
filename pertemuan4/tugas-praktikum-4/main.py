@@ -19,7 +19,7 @@ def main():
     jumlah_idr = konversi_ke_idr(dari, jumlah)
     hasil = konversi_dari_idr(ke, jumlah_idr)
     
-    # Output hasil
+
     if dari == "IDR":
         print(f"\nRp {jumlah:,.0f} = {hasil:.2f} {ke}")
     else:

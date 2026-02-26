@@ -6,7 +6,7 @@ print(stok)
 stok.insert(2, 75)
 print(stok)
 
-stok.sort()
+stok.sort(reverse=True)
 print(stok)
 
 total = sum(stok)
