@@ -6,5 +6,20 @@ stok_gadget = [
 ] 
 
 def filter_harga(data, min_harga, max_harga):
-    return filter_harga
+    hasil_filter = []
+    for gadget in data:
+        if gadget['harga'] >= min_harga and gadget['harga'] <= max_harga:
+            hasil_filter.append(gadget)
+    return hasil_filter
 
+batas_bawah = int(input("Masukkan batas bawah harga: "))
+batas_atas = int(input("Masukkan batas atas harga: "))
+
+hasil = filter_harga(stok_gadget, batas_bawah, batas_atas)
+
+if len(hasil) > 0:
+    print("Hasil filter gadget:")
+    for g in hasil:
+        print(f"- {g['merk']} {g['tipe']} (Rp {g['harga']})")
+else:
+    print("Tidak ada gadget dalam rentang harga tersebut.")
